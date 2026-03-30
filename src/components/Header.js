@@ -35,7 +35,7 @@ function Header() {
             >
               ☰
             </div>
-            <img src="/logo.png" alt="logo" className="logo-small" />
+            <img src="/Logo.png" alt="Logo" className="logo-small" />
           </div>
 
           {/* CENTER */}
