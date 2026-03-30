@@ -40,7 +40,7 @@ function App() {
                 className="filter-toggle"
                 onClick={() => setShowFilter(!showFilter)}
               >
-                <img src="/arrow-left.png" className="filter-arrow" />
+                <img src="/arrow-left.png"  alt="arrow" className="filter-arrow" />
                 {showFilter ? "HIDE FILTER" : "SHOW FILTER"}
               </span>
             </div>
@@ -58,7 +58,7 @@ function App() {
                   }}
                 >
                   RECOMMENDED
-                  <img src="/arrow-down.png" className="dropdown-arrow" />
+                  <img src="/arrow-down.png"  alt="arrow" className="dropdown-arrow" />
                 </div>
 
                 {openDropdown && (
@@ -123,7 +123,7 @@ function App() {
               }}
             >
               RECOMMENDED
-              <img src="/arrow-left.png" className="dropdown-arrow" />
+              <img src="/arrow-left.png"  alt="arrow" className="dropdown-arrow" />
             </div>
 
             {/* MOBILE DROPDOWN */}

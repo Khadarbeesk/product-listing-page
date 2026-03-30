@@ -25,7 +25,7 @@ function Filters() {
       <div className="filter-section">
         <label className="custom-checkbox">
           <input type="checkbox" />
-          <img src="/checkbox.png" className="checkbox-icon" />
+          <img src="/checkbox.png" alt="checkbox" className="checkbox-icon" />
           <span>CUSTOMIZABLE</span>
         </label>
       </div>
@@ -40,7 +40,7 @@ function Filters() {
   >
     <h5>{title}</h5>
     <img
-      src="/arrow-down.png"
+      src="/arrow-down.png" alt="arrow"
       className={`arrow-icon ${
         openSection === index ? "rotate" : ""
       }`}

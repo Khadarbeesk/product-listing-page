@@ -5,7 +5,7 @@ function ProductCard({ product }) {
       {/* IMAGE CARD ONLY */}
       <div className="card">
         <div className="card-img">
-          <img src={product.image} alt={product.title} />
+         <img src={product.image} alt={product.title} />
 
           {product.isNew && (
             <span className="badge">NEW PRODUCT</span>
@@ -22,9 +22,10 @@ function ProductCard({ product }) {
 
         <div className="card-row">
           <h4>{product.title}</h4>
-         <img
+       <img
   src={product.liked ? "/heartfull.png" : "/heart.png"}
   className="wishlist"
+  alt="wishlist"
 />
         </div>
 

@@ -9,15 +9,15 @@ function Header() {
       <div className="top-strip">
         <div className="top-strip-inner">
           <div className="strip-item">
-            <img src="/element-4.png" className="strip-icon" />
+            <img src="/element-4.png" alt="element" className="strip-icon" />
             <p>Lorem ipsum dolor</p>
           </div>
           <div className="strip-item">
-            <img src="/element-4.png" className="strip-icon" />
+            <img src="/element-4.png" alt="element" className="strip-icon" />
             <p>Lorem ipsum dolor</p>
           </div>
           <div className="strip-item">
-            <img src="/element-4.png" className="strip-icon" />
+            <img src="/element-4.png" alt="element" className="strip-icon" />
             <p>Lorem ipsum dolor</p>
           </div>
         </div>
@@ -35,7 +35,7 @@ function Header() {
             >
               ☰
             </div>
-            <img src="/logo.png" className="logo-small" />
+            <img src="/logo.png" alt="logo" className="logo-small" />
           </div>
 
           {/* CENTER */}
@@ -43,21 +43,23 @@ function Header() {
 
           {/* RIGHT */}
           <div className="right-icons">
-            <img src="https://img.icons8.com/ios/20/search--v1.png" />
-            <img src="https://img.icons8.com/ios/20/like--v1.png" />
-            <img src="https://img.icons8.com/ios/20/shopping-bag--v1.png" />
-            <img src="https://img.icons8.com/ios/20/user--v1.png" />
+            <img src="https://img.icons8.com/ios/20/search--v1.png" alt="image"/>
+            <img src="https://img.icons8.com/ios/20/like--v1.png"alt="image" />
+            <img src="https://img.icons8.com/ios/20/shopping-bag--v1.png" alt="image" />
+            <img src="https://img.icons8.com/ios/20/user--v1.png alt=image" />
             <span className="lang">ENG ▾</span>
           </div>
         </div>
 
         {/* DESKTOP NAV */}
         <nav className="nav">
-          <a>SHOP</a>
-          <a>SKILLS</a>
-          <a>STORIES</a>
-          <a>ABOUT</a>
-          <a>CONTACT US</a>
+          
+          <a href="#">SHOP</a>
+          
+          <a href="#">SKILLS</a>
+<a href="#">STORIES</a>
+<a href="#">ABOUT</a>
+<a href="#">CONTACT US</a>
         </nav>
 
         {/* MOBILE MENU */}
