@@ -43,10 +43,10 @@ function Header() {
 
           {/* RIGHT */}
           <div className="right-icons">
-            <img src="https://img.icons8.com/ios/20/search--v1.png" alt="image"/>
-            <img src="https://img.icons8.com/ios/20/like--v1.png"alt="image" />
-            <img src="https://img.icons8.com/ios/20/shopping-bag--v1.png" alt="image" />
-            <img src="https://img.icons8.com/ios/20/user--v1.png alt=image" />
+            <img src="https://img.icons8.com/ios/20/search--v1.png" alt="search"/>
+            <img src="https://img.icons8.com/ios/20/like--v1.png"alt="buy" />
+            <img src="https://img.icons8.com/ios/20/shopping-bag--v1.png" alt="contacts" />
+            <img src="https://img.icons8.com/ios/20/user--v1.png alt=home" />
             <span className="lang">ENG ▾</span>
           </div>
         </div>
